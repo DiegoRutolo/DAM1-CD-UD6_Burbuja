@@ -2,10 +2,10 @@
 import java.io.*;
 
 /**
- * Esta clase ordena una lista de int
- * 
+ * Esta clase ordena una lista de int.
+ * <br>
  * El usuario debe indicar la cantidad de numeros que introdicirá
- * y a continuacion los numeros de uno en uno
+ * y a continuacion los numeros de uno en uno.
  * 
  * @author a16diegoar
  */
