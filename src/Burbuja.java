@@ -2,11 +2,21 @@
 import java.io.*;
 
 /**
+ * Esta clase ordena una lista de int
+ * 
+ * El usuario debe indicar la cantidad de numeros que introdicirá
+ * y a continuacion los numeros de uno en uno
  * 
  * @author a16diegoar
  */
 public class Burbuja {
 
+    /**
+     * Método principal encargado recoger los datos del usuario
+     * 
+     * @param arg       Los argumentos de la linea de comandos no se utilizan
+     * @throws IOException 
+     */
     public static void main(String arg[]) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("\n Ingrese Numero de Datos a Ingresar : ");
@@ -24,6 +34,11 @@ public class Burbuja {
         burbuja(arr);
     }
 
+    /**
+     * Método encargado de ordenar e imprimir los datos
+     * 
+     * @param arreglo   el array de enteros a ordenar
+     */
     static void burbuja(int arreglo[]) {
         for (int i = 0; i < arreglo.length - 1; i++) {
             for (int j = 0; j < arreglo.length - 1; j++) {
